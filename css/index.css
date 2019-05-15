@@ -49,14 +49,16 @@ body{
 	background-color: #dcd0d0;
 }
 .btn_slider_left{
+	background-color: ##dcd0d0;
 	left: 27px;
 	position: relative;
 	top: -142px;
 }
 .btn_slider_right{
+	background-color: ##dcd0d0;
 	position: relative;
 	top: -142px;
-	left: 93%;
+	left: 93.2%;
 }
 #news{
 	position: relative;
