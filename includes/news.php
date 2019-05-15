@@ -22,7 +22,7 @@
 		while ($row = mysqli_fetch_assoc($result)){
 			echo "<div class='bai_viet'>
 					<img src='" . $row['img'] . "'>
-					<h3>" . $row['name_news'] . "</h3>
+					<h3><a href=''>" . $row['name_news'] . "</a></h3>
 					<p>" . $row['des_news'] . "</p>
 				</div>";	}
 		?>
