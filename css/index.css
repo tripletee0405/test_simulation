@@ -1,0 +1,94 @@
+body{
+	margin: 0px;
+}
+#banner img{
+	width: 100%;
+}
+#menu td{
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 20px;
+}
+#menu a{
+	text-decoration: none;
+}
+#menu_left {
+	position: absolute;
+	background-color: #bbbaba;
+	height: 1805px;
+	width: 15%;
+}
+#menu_left h3{
+	padding-left: 68px;
+	padding-top: 40px;
+}
+#menu_left ul{
+	padding-left: 68px;
+}
+#menu_left li{
+	padding-bottom: 14px;
+}
+#menu_left p{
+	position: relative;
+	top: 89%;
+}
+.mySlides{
+	position: relative;
+	display:none;
+	height: 300px;
+	width: 95%;
+	left: 28px;
+	top: 28px;
+}
+#slider{
+	display: inline-block;
+	width: 85%;
+	position: relative;
+	left: 15%;
+	height: 360px;
+	background-color: #dcd0d0;
+}
+.btn_slider_left{
+	left: 27px;
+	position: relative;
+	top: -142px;
+}
+.btn_slider_right{
+	position: relative;
+	top: -142px;
+	left: 93%;
+}
+#news{
+	position: relative;
+	background-color: #dcd0d0;
+	left: 15%;
+	width: 85%;
+}
+#news img{
+	display: inline-block;
+	padding-left: 25px;
+	padding-top: 25px;
+	width: 200px;
+}
+
+#news h3{
+	display: inline-block;
+	padding-left: 50px;
+	position: relative;
+	bottom: 170px;
+}
+
+#news p{
+	position: relative;
+	padding-left: 277px;
+	bottom: 160px;
+}
+.bai_viet{
+	margin-top: -14px;
+	background-color: #efefef;
+}
+.pagination{
+	display: inline-block;
+	position: relative;
+	left: 51%;
+}
