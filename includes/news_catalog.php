@@ -2,7 +2,7 @@
 	<?php 
 	$id = -1;
 	if (isset($_GET["id"])) { $id = intval($_GET['id']); }
-	$result = mysqli_query($conn, 'SELECT COUNT(id_news) AS total FROM news');
+	$result = mysqli_query($conn, "SELECT COUNT(id_news) AS total FROM news WHERE id_catalog='$id'");
 	$row = mysqli_fetch_assoc($result);
 	$total_records = $row['total'];
 	$current_page = isset($_GET['page']) ? $_GET['page'] : 1;
