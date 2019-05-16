@@ -14,7 +14,7 @@
 	}
 	$start = ($current_page - 1) * $limit;
 
-	$result = mysqli_query($conn, "SELECT * FROM news LIMIT $start, $limit");
+	$result = mysqli_query($conn, "SELECT * FROM news ORDER BY id_news DESC LIMIT $start, $limit");
 
 	?>
 	<div>
@@ -22,7 +22,7 @@
 		while ($row = mysqli_fetch_assoc($result)){
 			echo "<div class='bai_viet'>
 					<img src='" . $row['img'] . "'>
-					<h3><a href=''>" . $row['name_news'] . "</a></h3>
+					<h3><a href='chi_tiet_bai_viet.php?id=" . $row['id_news'] . "'>" . $row['name_news'] . "</a></h3>
 					<p>" . $row['des_news'] . "</p>
 				</div>";	}
 		?>

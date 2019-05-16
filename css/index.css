@@ -60,27 +60,27 @@ body{
 	top: -142px;
 	left: 93.2%;
 }
-#news{
+.news{
 	position: relative;
 	background-color: #dcd0d0;
 	left: 15%;
 	width: 85%;
 }
-#news img{
+.news img{
 	display: inline-block;
 	padding-left: 25px;
 	padding-top: 25px;
 	width: 200px;
 }
 
-#news h3{
+.news h3{
 	display: inline-block;
 	padding-left: 50px;
 	position: relative;
 	bottom: 170px;
 }
 
-#news p{
+.news p{
 	position: relative;
 	padding-left: 277px;
 	bottom: 160px;
@@ -88,6 +88,13 @@ body{
 .bai_viet{
 	margin-top: -14px;
 	background-color: #efefef;
+}
+.bai_viet a{
+	text-decoration: none;
+	color: green;
+}
+.bai_viet a:hover{
+	color: #2196F3;
 }
 .pagination{
 	display: inline-block;
