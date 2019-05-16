@@ -9,8 +9,13 @@ body{
 	text-align: left;
 	padding: 20px;
 }
+#menu td:hover{
+	background-color: #558013;
+}
 #menu a{
+	color: #28b7cc;
 	text-decoration: none;
+	font-size: 20px
 }
 #menu_left {
 	position: absolute;
@@ -29,8 +34,16 @@ body{
 	padding-bottom: 14px;
 }
 #menu_left p{
-	position: relative;
-	top: 89%;
+	position: absolute;
+	top: 97%;
+}
+#menu_left a{
+	text-decoration: none;
+    color: #131e73;
+}
+#menu_left a:hover{
+    color: red;
+    font-size: 24px;
 }
 .mySlides{
 	position: relative;
@@ -49,15 +62,20 @@ body{
 	background-color: #dcd0d0;
 }
 .btn_slider_left{
-	background-color: ##dcd0d0;
+	background-color: transparent;
 	left: 27px;
 	position: relative;
 	top: -142px;
+	border: none;
+	cursor: pointer;
 }
 .btn_slider_right{
-	background-color: ##dcd0d0;
-	position: relative;
-	top: -142px;
+	background-color: transparent;
+    left: 27px;
+    position: relative;
+    top: -142px;
+    border: none;
+    cursor: pointer;
 	left: 93.2%;
 }
 .news{
