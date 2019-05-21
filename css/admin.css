@@ -1,0 +1,25 @@
+label{
+	color: red;
+}
+#name_news{	
+	position: absolute;	
+	left: 7%;	
+	width: 49%;
+}
+#des_news{
+	position: absolute;	
+	left: 7%;	
+	width: 49%;
+}
+#img{
+	position: absolute;	
+	left: 7%;	
+	width: 49%;
+}
+#id_catalog{
+	position: absolute;	
+	left: 7%;	
+}
+#catalog{
+	width: 49%;
+}
