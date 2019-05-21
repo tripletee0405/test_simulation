@@ -35,7 +35,7 @@
         <h2>Thêm Bài viết</h2>
         <form action="add_news.php" method="post">
             <div>
-                <label>Danh mục:</label>
+                <label>Chuyên mục:</label>
                 <select id="id_catalog" name="id_catalog">
                     <?php
                     foreach ($news_catalog as $key => $value) {
