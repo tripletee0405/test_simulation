@@ -13,6 +13,7 @@
 		$insert_sql = "INSERT INTO `news_catalog`(`name_catalog`) VALUES ('$catalog')";
 
 		$conn->query($insert_sql);
+		$insert_sql->close();
 		$conn->close();
 	}
 	?>
