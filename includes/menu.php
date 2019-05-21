@@ -6,6 +6,7 @@
 			<td><a href="#">Sản phẩm</a></td>
 			<td><a href="#">Giới thiệu</a></td>
 			<td><a href="#">Liên hệ</a></td>
+			<td><a href="../test_simulation/admin/admin.php">Admin</a></td>			
 		</tr>  
 	</table>
 </div>

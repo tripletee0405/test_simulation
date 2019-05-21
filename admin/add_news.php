@@ -64,7 +64,7 @@
                 <textarea type="text" id="content" name="content" required></textarea>
                 <br>
             </div>
-            <button type="submit">Thêm</button>
+            <button type="submit">Thêm bài viết</button>
         </form>
     </div>
     <script>

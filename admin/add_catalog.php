@@ -23,7 +23,7 @@
 				<input type="text" id="catalog" name="catalog">
 			</div>
 			<br>
-			<button type="submit">Thêm</button>
+			<button type="submit">Thêm danh mục</button>
 		</form>
 	</div>
 </body>
