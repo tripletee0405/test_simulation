@@ -4,10 +4,16 @@ body{
 #banner img{
 	width: 100%;
 }
+#menu{
+	background: linear-gradient(to bottom, #FF0000 0%, #330000 100%); 
+	background: -moz-linear-gradient(to bottom, #FF0000 0%, #330000 100%); 
+	background: -o-linear-gradient(to bottom, #FF0000 0%, #330000 100%); 
+	background: -ms-linear-gradient(to bottom, #FF0000 0%, #330000 100%); 
+	background: -webkit-linear-gradient(top, #FF0000 0%, #330000 100%);
+}
 #menu td{
-	border: 1px solid #ffffff;
 	text-align: left;
-	padding: 20px;
+	padding: 13px;
 }
 #menu td:hover{
 	background-color: #558013;
@@ -39,11 +45,11 @@ body{
 }
 #menu_left a{
 	text-decoration: none;
-    color: #131e73;
+	color: #131e73;
 }
 #menu_left a:hover{
-    color: red;
-    font-size: 24px;
+	color: red;
+	font-size: 24px;
 }
 .mySlides{
 	position: relative;
@@ -62,6 +68,7 @@ body{
 	background-color: #dcd0d0;
 }
 .btn_slider_left{
+	outline: none;
 	background-color: transparent;
 	left: 27px;
 	position: relative;
@@ -70,12 +77,13 @@ body{
 	cursor: pointer;
 }
 .btn_slider_right{
+	outline: none;
 	background-color: transparent;
-    left: 27px;
-    position: relative;
-    top: -142px;
-    border: none;
-    cursor: pointer;
+	left: 27px;
+	position: relative;
+	top: -142px;
+	border: none;
+	cursor: pointer;
 	left: 93.2%;
 }
 .news{
