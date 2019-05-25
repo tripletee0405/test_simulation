@@ -7,6 +7,7 @@
 			echo "<div class='bai_viet'>
 			<img src='" . $row['img'] . "'>
 			<h3>" . $row['name_news'] . "</h3>
+			<p><i><b>" . $row['des_news'] . "</b></i></p>
 			<p>" . $row['content'] . "</p>
 			</div>";	}
 			?>

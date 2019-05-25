@@ -18,10 +18,11 @@
 
 	?>
 	<div>
+		<a href=""></a>
 		<?php 
 		while ($row = mysqli_fetch_assoc($result)){
 			echo "<div class='bai_viet'>
-					<img src='" . $row['img'] . "'>
+					<a href='chi_tiet_bai_viet.php?id=" . $row['id_news'] . "'><img src='" . $row['img'] . "'></a>
 					<h3><a href='chi_tiet_bai_viet.php?id=" . $row['id_news'] . "'>" . $row['name_news'] . "</a></h3>
 					<p>" . $row['des_news'] . "</p>
 				</div>";	}

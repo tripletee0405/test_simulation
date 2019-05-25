@@ -3,20 +3,6 @@
 	<link rel="stylesheet" href="../css/admin.css">
 </head>
 <body>
-	<?php
-	include "../controller/connect.php";
-
-	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-		$catalog = $_POST['catalog'];
-
-    # Thêm danh mục
-		$insert_sql = "INSERT INTO `news_catalog`(`name_catalog`) VALUES ('$catalog')";
-
-		$conn->query($insert_sql);
-		$insert_sql->close();
-		$conn->close();
-	}
-	?>
 	<div>
 		<h2>Thêm danh mục</h2>
 		<form action="add_catalog.php" method="post">

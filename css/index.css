@@ -26,7 +26,7 @@ body{
 #menu_left {
 	position: absolute;
 	background-color: #bbbaba;
-	height: 1805px;
+	height: -webkit-fill-available;
 	width: 15%;
 }
 #menu_left h3{
@@ -103,13 +103,13 @@ body{
 	display: inline-block;
 	padding-left: 50px;
 	position: relative;
-	bottom: 170px;
+	bottom: 105px;
 }
 
 .news p{
 	position: relative;
-	padding-left: 277px;
-	bottom: 160px;
+	padding-left: 279px;
+	bottom: 126px;
 }
 .bai_viet{
 	margin-top: -14px;

@@ -1,6 +1,7 @@
 <head>
     <title>Thêm bài viết</title>
     <script src="//cdn.ckeditor.com/4.11.4/standard/ckeditor.js"></script>
+    <script src="../js/jquery-3.4.0.min.js"></script>
     <link rel="stylesheet" href="../css/admin.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
 
     if ($result->num_rows > 1) {
         while ($row = $result->fetch_assoc()) {
-            $news_catalog[$row['name_catalog']] = $row['id_catalog'];;
+            $name_catalog[$row['name_catalog']] = $row['id_catalog'];;
         }
     }
 
@@ -26,19 +27,24 @@
 
     # Thêm bài viết
         $insert_sql = "INSERT INTO `news`(`id_catalog`, `name_news`, `des_news`, `img`, `content`) VALUES ($id_catalog, '$name_news', '$des_news', '$img', '$content')";
-        $conn->query($insert_sql);
+        if ($conn->query($insert_sql) === TRUE) {
+            echo "Hello";
+        }
+        else {
+            echo "Fuck";
+        }
     }
     $result->close();
     $conn->close();
     ?>
     <div>
         <h2>Thêm Bài viết</h2>
-        <form action="add_news.php" method="post">
+        <form id="form_add_news" action="add_news.php" method="POST">
             <div>
                 <label>Chuyên mục:</label>
                 <select id="id_catalog" name="id_catalog">
                     <?php
-                    foreach ($news_catalog as $key => $value) {
+                    foreach ($name_catalog as $key => $value) {
                         echo "<option value=\"$value\">$key</option>";
                     }
                     ?>
@@ -46,7 +52,8 @@
                 <br>
                 <br>
                 <label for="name_news">Title:</label>
-                <input type="text" id="name_news" name="name_news" required>
+                <textarea type="text" id="name_news" name="name_news" required></textarea>
+                <br>
                 <br>
                 <br>
                 <label for="des_news">Mô tả:</label>
