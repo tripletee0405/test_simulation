@@ -26,7 +26,7 @@ body{
 #menu_left {
 	position: absolute;
 	background-color: #bbbaba;
-	height: -webkit-fill-available;
+	height: 1477px;
 	width: 15%;
 }
 #menu_left h3{
