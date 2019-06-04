@@ -10,6 +10,7 @@
 		<h2>Admin Page</h2>
 	</div>
 	<div class="option_admin">
+		<input type="submit" value="Trang chủ" onclick="location.href='../index.php'">
 		<input type="submit" value="Thêm chuyên mục" onclick="location.href='add_catalog.php'">
 		<input type="submit" value="Thêm bài viết" onclick="location.href='add_news.php'">
 		<input type="submit" value="Danh sách chuyên mục" onclick="location.href='list_catalog.php'">
