@@ -24,7 +24,7 @@ $conn->close();
     <thead>
         <tr>
             <th>STT</th>
-            <th>Tên</th>
+            <th>Title</th>
             <th>Thao tác</th>
         </tr>
     </thead>

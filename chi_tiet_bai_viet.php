@@ -10,8 +10,6 @@
 	include 'controller/connect.php';
 	include 'includes/banner.php';
 	include 'includes/menu.php';
-	include 'includes/menu_left.php';
-	include 'includes/slider.php';
 	include 'includes/noi_dung_bai_viet.php';
 	?>
 </body>

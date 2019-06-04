@@ -28,10 +28,10 @@
     # Thêm bài viết
         $insert_sql = "INSERT INTO `news`(`id_catalog`, `name_news`, `des_news`, `img`, `content`) VALUES ($id_catalog, '$name_news', '$des_news', '$img', '$content')";
         if ($conn->query($insert_sql) === TRUE) {
-            echo "Hello";
+            echo "Thêm bài viết thành công";
         }
         else {
-            echo "Fuck";
+            echo "Thêm bài viết thất bại";
         }
     }
     $result->close();

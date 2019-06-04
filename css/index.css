@@ -26,7 +26,7 @@ body{
 #menu_left {
 	position: absolute;
 	background-color: #bbbaba;
-	height: 1477px;
+	height: 1561px;
 	width: 15%;
 }
 #menu_left h3{
@@ -112,7 +112,7 @@ body{
 	bottom: 126px;
 }
 .bai_viet{
-	margin-top: -14px;
+	margin-top: 0;
 	background-color: #efefef;
 }
 .bai_viet a{
