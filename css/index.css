@@ -26,7 +26,7 @@ body{
 #menu_left {
 	position: absolute;
 	background-color: #bbbaba;
-	height: 1561px;
+	height: 1622px;
 	width: 15%;
 }
 #menu_left h3{
@@ -41,7 +41,7 @@ body{
 }
 #menu_left p{
 	position: absolute;
-	top: 97%;
+	top: 98%;
 }
 #menu_left a{
 	text-decoration: none;
